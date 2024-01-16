@@ -1,0 +1,58 @@
+2023-04-19 13:51:21,957 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h17m44s321ms791µs201ns).
+2023-04-19 13:51:21,957 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h17m44s321ms791µs201ns).
+2023-04-19 13:51:21,967 DEBUG [main][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef2cbe6] from current transaction
+2023-04-19 13:51:21,967 DEBUG [main][Logger.java:49] - Fetched SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ef2cbe6] from current transaction
+2023-04-19 13:51:22,026 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2023-04-19 13:51:22,026 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+2023-04-19 13:51:22,026 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-04-19 13:51:22,026 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-04-19 13:51:22,026 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@36417a54, started on Wed Apr 19 10:33:34 CST 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6a0659ac
+2023-04-19 13:51:22,026 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@36417a54, started on Wed Apr 19 10:33:34 CST 2023, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6a0659ac
+2023-04-19 13:51:22,029 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,029 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f9e4bf4: (connection has passed maxLifetime)
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@f9e4bf4: (connection has passed maxLifetime)
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,030 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2023-04-19 13:51:22,032 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET orderby=?, change_date=? WHERE id=?
+2023-04-19 13:51:22,032 DEBUG [main][BaseJdbcLogger.java:137] - ==>  Preparing: UPDATE teachplan SET orderby=?, change_date=? WHERE id=?
+2023-04-19 13:51:22,034 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), null, 33(Long)
+2023-04-19 13:51:22,034 DEBUG [main][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), null, 33(Long)
+2023-04-19 13:51:22,037 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285d066f
+2023-04-19 13:51:22,037 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-04-19 13:51:22,037 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-04-19 13:51:22,037 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@285d066f
+2023-04-19 13:51:22,038 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=2, active=1, idle=1, waiting=0)
+2023-04-19 13:51:22,038 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=2, active=1, idle=1, waiting=0)
+2023-04-19 13:51:22,041 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2efd511: (connection has passed maxLifetime)
+2023-04-19 13:51:22,041 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2efd511: (connection has passed maxLifetime)
+2023-04-19 13:51:22,042 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e0ce4a6: (connection has passed maxLifetime)
+2023-04-19 13:51:22,042 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e0ce4a6: (connection has passed maxLifetime)
+2023-04-19 13:51:22,042 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d51f2e: (connection has passed maxLifetime)
+2023-04-19 13:51:22,042 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d51f2e: (connection has passed maxLifetime)
+2023-04-19 13:51:22,043 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54ea7989: (connection has passed maxLifetime)
+2023-04-19 13:51:22,043 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54ea7989: (connection has passed maxLifetime)
+2023-04-19 13:51:22,043 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ed700be: (connection has passed maxLifetime)
+2023-04-19 13:51:22,043 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ed700be: (connection has passed maxLifetime)
+2023-04-19 13:51:22,044 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c49a50: (connection has passed maxLifetime)
+2023-04-19 13:51:22,044 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1c49a50: (connection has passed maxLifetime)
+2023-04-19 13:51:22,045 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a2b4667: (connection has passed maxLifetime)
+2023-04-19 13:51:22,045 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2a2b4667: (connection has passed maxLifetime)
+2023-04-19 13:51:22,045 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b48c9a6: (connection has passed maxLifetime)
+2023-04-19 13:51:22,045 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@b48c9a6: (connection has passed maxLifetime)
+2023-04-19 13:51:22,046 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@285d066f: (connection evicted)
+2023-04-19 13:51:22,046 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@285d066f: (connection evicted)
+2023-04-19 13:51:22,047 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-04-19 13:51:22,047 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-04-19 13:51:22,047 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-04-19 13:51:22,047 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

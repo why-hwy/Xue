@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/../../xuecheng-plus-base/src/main/java/com/xuecheng/base/config/LocalDateTimeConfig.java</file>
+          <file>file://$MODULE_DIR$/src/main/java/com/xuecheng/system/config/MybatisPlusConfig.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="131be681-7823-438e-8fbf-e8bb1b89fe1a" />
+  </component>
+</module>
